@@ -1,4 +1,4 @@
-# Verilog_Exercises
+# Verilog Exercises
 
 ## Repository content
 - hello_word
