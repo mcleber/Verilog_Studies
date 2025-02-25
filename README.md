@@ -10,3 +10,4 @@
 - multiple_procedures
 - literal_values
 - vectors
+- bitwise_operators
