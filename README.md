@@ -9,3 +9,4 @@
 - sum_product
 - multiple_procedures
 - literal_values
+- vectors
