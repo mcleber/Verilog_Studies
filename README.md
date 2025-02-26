@@ -53,7 +53,7 @@ This type of signal manipulation is common in digital circuits, where logical op
 
 ||: Logical OR (returns 1 if at least one bit is 1).
 
-## Summary:
+### Summary:
 Use & when you need to compare bit by bit between two values.
 
 Use && when you need to evaluate a logical condition between two values, returning 1 (true) or 0 (false).
