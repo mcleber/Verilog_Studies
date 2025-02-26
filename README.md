@@ -20,7 +20,7 @@ _________
 
 # Brief explanation
 
-## Arithmetic Operators:
+### Arithmetic Operators:
 ( ** ) exponentiation
 
 ( * ) product
@@ -35,7 +35,7 @@ _________
 
 _________
 
-## Bitwise Operators:
+### Bitwise Operators:
 AND Operator (&): Returns 1 if both operands are 1.
 
 OR Operator (|): Returns 1 if at least one of the operands is 1.
@@ -46,7 +46,7 @@ XOR Operator (^): Returns 1 if the operands are different (if one is 1 and the o
 
 This type of signal manipulation is common in digital circuits, where logical operations are used to control data flow and conditions.
 
-## Logical Operators:
+### Logical Operators:
 !: Logical NOT (inverts the bits).
 
 &&: Logical AND (returns 1 if both bits are 1).
