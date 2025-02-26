@@ -12,3 +12,4 @@
 - literal_values
 - vectors
 - bitwise_operators
+- reduction_operators
