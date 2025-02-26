@@ -13,3 +13,4 @@
 - vectors
 - bitwise_operators
 - reduction_operators
+- logical_operators
