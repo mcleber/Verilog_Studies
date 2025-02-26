@@ -14,3 +14,4 @@
 - bitwise_operators
 - reduction_operators
 - logical_operators
+- arithmetic_operators
