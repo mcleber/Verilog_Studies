@@ -20,7 +20,7 @@ _________
 
 # Brief explanation
 
-## Arithmetic Operators:
+### Arithmetic Operators:
 ( ** ) exponentiation
 
 ( * ) product
@@ -34,8 +34,9 @@ _________
 ( - ) difference
 
 _________
+## Operators
 
-## Bitwise Operators:
+### Bitwise Operators:
 AND Operator (&): Returns 1 if both operands are 1.
 
 OR Operator (|): Returns 1 if at least one of the operands is 1.
