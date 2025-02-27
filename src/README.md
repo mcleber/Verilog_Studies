@@ -1,0 +1,21 @@
+## Directory contents
+
+- hello_word
+- and3
+- or
+- not
+- sum_product
+- multiple_procedures
+- literal_values
+- vectors
+- bitwise_operators
+- reduction_operators
+- logical_operators
+- arithmetic_operators
+- shift_operators
+- relational_operators
+- equality_operators
+- conditional_operators
+- concatenation_operator
+- replicaton_operator
+- precedence_operators
