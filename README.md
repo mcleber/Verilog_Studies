@@ -103,7 +103,7 @@ _________
 
 ## Operator Precedence
 
-### 1. **Unary (highest)**
+#### 1. **Unary (highest)**
 - Unary operators have the highest precedence.
 - Examples: 
   - **`+`**: Unary plus (positive sign)
@@ -111,24 +111,24 @@ _________
   - **`!`**: Logical NOT (inverts the bits)
   - **`~`**: Bitwise NOT (inverts the bits)
 
-### 2. **Exponentiation**
+#### 2. **Exponentiation**
 - Exponentiation (if supported) is evaluated next.
 - Example: **`**`** (Exponentiation)
 
-### 3. **Arithmetic Operators**
+#### 3. **Arithmetic Operators**
 - Arithmetic operations like multiplication, division, and modulus come after exponentiation.
 - Examples:
   - **`*`**: Multiplication
   - **`/`**: Division
   - **`%`**: Modulus (remainder)
 
-### 4. **Shift Operators**
+#### 4. **Shift Operators**
 - Shift operators are evaluated after arithmetic operations.
 - Examples:
   - **`<<`**: Logical left shift
   - **`>>`**: Logical right shift
 
-### 5. **Relational Operators**
+#### 5. **Relational Operators**
 - Relational operators are used for comparison and come after arithmetic and shift operations.
 - Examples:
   - **`>`**: Greater than
@@ -136,31 +136,31 @@ _________
   - **`<`**: Less than
   - **`<=`**: Less than or equal
 
-### 6. **Equality Operators**
+#### 6. **Equality Operators**
 - Equality operators check if values are equal or not, and are evaluated after relational operators.
 - Examples:
   - **`==`**: Equal
   - **`!=`**: Not equal
 
-### 7. **Bitwise Operators**
+#### 7. **Bitwise Operators**
 - Bitwise operators perform bit-level operations and are evaluated after equality operators.
 - Examples:
   - **`&`**: Bitwise AND
   - **`^`**: Bitwise XOR
   - **`|`**: Bitwise OR
 
-### 8. **Logical Operators**
+#### 8. **Logical Operators**
 - Logical operators are evaluated after bitwise operations.
 - Examples:
   - **`&&`**: Logical AND
   - **`||`**: Logical OR
 
-### 9. **Conditional Operators**
+#### 9. **Conditional Operators**
 - Conditional operators are evaluated after logical operators.
 - Example:
   - **`? :`**: Ternary conditional (if-else)
 
-### 10. **Concatenation (lowest)**
+#### 10. **Concatenation (lowest)**
 - Concatenation has the lowest precedence in Verilog.
 - Example:
   - **`{}`**: Concatenation operator (combines multiple bits or signals)
