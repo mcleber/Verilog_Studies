@@ -1,6 +1,8 @@
-# Verilog Exercises
+# Verilog Studies
 
 ## Repository content
+
+- The Data Types and Operators directories hold study code examples.
 - hello_word
 - and3
 - or
