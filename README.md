@@ -1,6 +1,6 @@
 # Verilog Studies
 
-## Repository contents
+### Repository contents
 
 - The Data Types and Operators directories hold study code examples.
 
