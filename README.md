@@ -2,7 +2,8 @@
 
 ## Repository contents
 
-- The Data Types and Operators directories hold study code examples.
+- The **`Data Types and Operators`** directory hold study code examples.
+- The **`Numbering Systems`** directory contains adders.
 
 _________
 
