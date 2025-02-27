@@ -17,57 +17,61 @@
 - arithmetic_operators
 - shift_operators
 - relational_operators
+- equality_operators
 
 _________
 
-# Brief explanation
+## Arithmetic Operators:
 
-### Arithmetic Operators:
-( ** ) exponentiation
+- **`**`**: Exponentiation
+- **`*`**: Product
+- **`/`**: Division
+- **`%`**: Modulus or Remainder
+- **`+`**: Sum
+- **`-`**: Difference
 
-( * ) product
+---
 
-( / ) division
+## Relational Operators:
 
-( % ) module or remainder
+- **`>`**: Greater than
+- **`>=`**: Greater than or equal
+- **`<`**: Less than
+- **`<=`**: Less than or equal
 
-( + ) sum
+---
 
-( - ) difference
+## Bitwise Operators:
 
-_________
+- **AND Operator `&`**: Returns 1 if both operands are 1.
+- **OR Operator `|`**: Returns 1 if at least one of the operands is 1.
+- **NOT Operator `~`**: Inverts the logical value of the operand (if it’s 0, it becomes 1, and vice versa).
+- **XOR Operator `^`**: Returns 1 if the operands are different (if one is 1 and the other is 0).
 
-### Relational Operators:
-( > ) greater than
+> This type of signal manipulation is common in digital circuits, where logical operations are used to control data flow and conditions.
 
-( >= ) greater than or equal
+## Logical Operators:
 
-( < ) less than
+- **`!`**: Logical NOT (inverts the bits).
+- **`&&`**: Logical AND (returns 1 if both bits are 1).
+- **`||`**: Logical OR (returns 1 if at least one bit is 1).
 
-( <= ) less than or equal
+## Summary:
 
-_________
+- Use **`&`** when you need to compare bit by bit between two values.
+- Use **`&&`** when you need to evaluate a logical condition between two values, returning 1 (true) or 0 (false).
 
-### Bitwise Operators:
-AND Operator (&): Returns 1 if both operands are 1.
+---
 
-OR Operator (|): Returns 1 if at least one of the operands is 1.
+## Equality Operators:
 
-NOT Operator (~): Inverts the logical value of the operand (if it’s 0, it becomes 1, and vice versa).
+### Logical Equality (for design):
+- **`==`**: Equal
+- **`!=`**: Not equal
 
-XOR Operator (^): Returns 1 if the operands are different (if one is 1 and the other is 0).
+### Case Equality (for testbench):
+- **`===`**: Case equality
+- **`!==`**: Case inequality
 
-This type of signal manipulation is common in digital circuits, where logical operations are used to control data flow and conditions.
-
-### Logical Operators:
-!: Logical NOT (inverts the bits).
-
-&&: Logical AND (returns 1 if both bits are 1).
-
-||: Logical OR (returns 1 if at least one bit is 1).
-
-### Summary:
-Use & when you need to compare bit by bit between two values.
-
-Use && when you need to evaluate a logical condition between two values, returning 1 (true) or 0 (false).
+> If logical equality operators get variables with Z (high impedance) or X (unknown) values, then the result can be unknown.
 
