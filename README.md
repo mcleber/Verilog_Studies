@@ -16,6 +16,7 @@
 - logical_operators
 - arithmetic_operators
 - shift_operators
+- relational_operators
 
 _________
 
@@ -33,6 +34,17 @@ _________
 ( + ) sum
 
 ( - ) difference
+
+_________
+
+### Relational Operators:
+( > ) greater than
+
+( >= ) greater than or equal
+
+( < ) less than
+
+( <= ) less than or equal
 
 _________
 
@@ -59,4 +71,3 @@ Use & when you need to compare bit by bit between two values.
 
 Use && when you need to evaluate a logical condition between two values, returning 1 (true) or 0 (false).
 
-_________
