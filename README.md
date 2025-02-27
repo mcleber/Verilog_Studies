@@ -1,12 +1,12 @@
 # Verilog Studies
 
-## Repository content
+## Repository contents
 
 - The Data Types and Operators directories hold study code examples.
 
 _________
 
-## Arithmetic Operators:
+### Arithmetic Operators:
 
 - **`**`**: Exponentiation
 - **`*`**: Product
@@ -17,7 +17,7 @@ _________
 
 ---
 
-## Relational Operators:
+### Relational Operators:
 
 - **`>`**: Greater than
 - **`>=`**: Greater than or equal
@@ -26,7 +26,7 @@ _________
 
 ---
 
-## Bitwise Operators:
+### Bitwise Operators:
 
 - **AND Operator `&`**: Returns 1 if both operands are 1.
 - **OR Operator `|`**: Returns 1 if at least one of the operands is 1.
@@ -35,26 +35,26 @@ _________
 
 > This type of signal manipulation is common in digital circuits, where logical operations are used to control data flow and conditions.
 
-## Logical Operators:
+### Logical Operators:
 
 - **`!`**: Logical NOT (inverts the bits).
 - **`&&`**: Logical AND (returns 1 if both bits are 1).
 - **`||`**: Logical OR (returns 1 if at least one bit is 1).
 
-## Summary:
+### Summary:
 
 - Use **`&`** when you need to compare bit by bit between two values.
 - Use **`&&`** when you need to evaluate a logical condition between two values, returning 1 (true) or 0 (false).
 
 ---
 
-## Equality Operators:
+### Equality Operators:
 
-### Logical Equality (for design):
+#### Logical Equality (for design):
 - **`==`**: Equal
 - **`!=`**: Not equal
 
-### Case Equality (for testbench):
+#### Case Equality (for testbench):
 - **`===`**: Case equality
 - **`!==`**: Case inequality
 
@@ -62,7 +62,7 @@ _________
 
 ---
 
-## Concatenation Operator:
+### Concatenation Operator:
 
 - **`{}`**: Concatenation
 
@@ -70,7 +70,7 @@ _________
 
 ---
 
-## Replication Operator:
+### Replication Operator:
 
 - **`{{}}`**: Replication
 
@@ -82,7 +82,7 @@ _________
 
 ---
 
-## Operator Precedence
+### Operator Precedence
 
 #### 1. **Unary (highest)**
 - Unary operators have the highest precedence.
