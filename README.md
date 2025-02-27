@@ -15,6 +15,7 @@
 - reduction_operators
 - logical_operators
 - arithmetic_operators
+- shift_operators
 
 _________
 
