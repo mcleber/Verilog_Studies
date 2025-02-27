@@ -19,6 +19,9 @@
 - relational_operators
 - equality_operators
 - conditional_operators
+- concatenation_operator
+- replicaton_operator
+- precedence_operators
 
 _________
 
