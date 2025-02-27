@@ -3,27 +3,6 @@
 ## Repository content
 
 - The Data Types and Operators directories hold study code examples.
-- hello_word
-- and3
-- or
-- not
-- half_adder
-- full_adder
-- sum_product
-- multiple_procedures
-- literal_values
-- vectors
-- bitwise_operators
-- reduction_operators
-- logical_operators
-- arithmetic_operators
-- shift_operators
-- relational_operators
-- equality_operators
-- conditional_operators
-- concatenation_operator
-- replicaton_operator
-- precedence_operators
 
 _________
 
