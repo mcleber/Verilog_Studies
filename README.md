@@ -18,6 +18,7 @@
 - shift_operators
 - relational_operators
 - equality_operators
+- conditional_operators
 
 _________
 
